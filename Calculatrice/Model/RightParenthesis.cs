@@ -1,8 +1,4 @@
-﻿
-
-using System;
-
-namespace Calculatrice.Model
+﻿namespace Calculatrice.Model
 {
     public class RightParenthesis : SignOperation
     {
@@ -10,6 +6,6 @@ namespace Calculatrice.Model
             : base(")", p)
         {
 
-        } 
+        }
     }
 }

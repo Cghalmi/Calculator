@@ -10,6 +10,6 @@
         {
             input = _input;
             related = _related;
-        } 
+        }
     }
 }

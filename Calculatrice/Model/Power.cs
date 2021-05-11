@@ -21,9 +21,9 @@ namespace Calculatrice.Model
             if (!float.TryParse(right, out float RightFloat))
             {
                 throw new System.Exception("Power : right isn't number ");
-            } 
+            }
 
-            return (float)Math.Pow(leftFloat,RightFloat);
+            return (float)Math.Pow(leftFloat, RightFloat);
         }
     }
 }

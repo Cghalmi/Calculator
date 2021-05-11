@@ -11,13 +11,13 @@ namespace Calculatrice.Model
         {
 
         }
-        public override float CalculeOp(string left, string right="")
+        public override float CalculeOp(string left, string right = "")
         {
 
             if (!float.TryParse(left, out float leftFloat))
             {
                 throw new System.Exception("Sqrt : left isn't number ");
-            } 
+            }
             return (float)Math.Sqrt(leftFloat);
         }
     }

@@ -14,7 +14,7 @@ namespace Calculatrice.Model
             float leftFloat = 0;
             float RightFloat = 0;
 
-            if(!float.TryParse(left, out leftFloat))
+            if (!float.TryParse(left, out leftFloat))
             {
                 throw new System.Exception("Subtraction : left isn't number ");
             }
