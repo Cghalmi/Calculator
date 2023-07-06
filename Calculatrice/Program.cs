@@ -12,9 +12,9 @@ namespace Calculatrice
         {
             var toCalcule1 = "6*(4/2)+3*1"; //15  
             var toCalcule2 = "6/3-1"; //1  
-            var toCalcule3 = "((3+5)-6)"; //1  
+            var toCalcule3 = "((3+5)-6)"; //2  
             var toCalcule4 = "6*(4/2)+(3*1)"; //15
-            var toCalcule5 = "(((3+5)-6)*3)"; //1  
+            var toCalcule5 = "(((3+5)-6)*3)"; //6  
             var cal = new Calculator2();
             var result = cal.Eval(toCalcule1);
 
